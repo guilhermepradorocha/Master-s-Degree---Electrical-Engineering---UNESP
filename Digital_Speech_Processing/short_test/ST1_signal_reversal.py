@@ -1,3 +1,10 @@
+'''
+
+Short Test (ST1): Considering that the M-sample long signal s[·]
+corresponds to a speech raw data, write either an algorithm or a
+code in any programming language to reverse it in time.
+ '''
+
 import numpy as np
 import matplotlib.pyplot as plt
 
