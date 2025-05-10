@@ -1,6 +1,6 @@
 '''
 Design an FIR filter (h[n]) of order M = 5
-to allow for frequencies up to 1500 Hz to pass through, assuming that
+to allow for frequencies up to 1500 Hz to pass through, assuming thatgit co
 the input signal to be filtered (x[n]) was sampled at 12000 samples
 per second. Considering, as an example, that x[n] = {−1, 1, −2, 2, 2},
 filter it by using h[n], obtaining the output signal.

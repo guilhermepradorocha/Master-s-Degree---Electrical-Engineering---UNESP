@@ -31,7 +31,6 @@ d = np.sin(math.pi * k) / (math.pi * k)
 # Calculate high-pass coefficients g[n] = d[n] - h[n]
 g = d - h
 
-
 print(f"\nCalculated High-Pass Filter Coefficients g[n]:")
 np.set_printoptions(precision=7, suppress=True) 
 print(f"g = {g}")
@@ -63,4 +62,5 @@ Gz_str = "".join(terms)
 
 print(f"The transfer function G[z] defined by coefficients g[n] is:")
 print(f"G[z] = {Gz_str}")
+
 # %%
